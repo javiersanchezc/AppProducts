@@ -1,5 +1,10 @@
 # AppProducts
 
+
+docker run --name mysql-docker-container -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=mydatabase -d mysql
+
+docker pull mysql:latest
+
 Se ajusta para ejecutar app atravez de docker compose 
 
 ejecutar el siguiente comando para generar el jar del projecto.
